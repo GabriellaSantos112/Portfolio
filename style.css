@@ -1,0 +1,161 @@
+:root {
+
+    /* cores letras */
+    --texto: #fff;
+
+    /* cores de fundo */
+    --fundo: #3a3a3a;
+    --sobreposto: #444444;
+
+    /* fontes */
+    --fonte-padrão: 'Open Sans',sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--fundo);
+}
+
+/* navegação */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 4%;
+}
+
+.link {
+    color: var(--texto);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* conteudo do portfolio */
+
+/* geral */
+
+.conteudo-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo-textos {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: end;
+    justify-content: center;
+    background-color: var(--sobreposto);
+}
+
+.titulo {
+    color: var(--texto);
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    padding: 0rem;
+    text-shadow: var(--texto) 0.1rem 0.1rem 1rem;
+    opacity: 100%;
+}
+
+.subtitulo {
+    color: var(--texto);
+    font-family: var(--fonte-padrão);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+/* Sobre mim */
+
+.sobremim-imagem {
+    display: flex;
+    padding: 1rem 0rem;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sobreposto);   
+}
+
+.conteudo-sobremim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.imagem-sobremim {
+    width: 11rem;
+}
+
+.texto-sobremim {
+    font-family: var(--fonte-padrão);
+    color: var(--texto);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: end;
+    padding: 0rem 10rem;
+}
+
+/* Habilidades */
+
+.conteudo-habilidades {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    justify-content: center;
+}
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--sobreposto);
+}
+
+.textos-hard {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens-hard {
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+}
+
+.texto-habilidades {
+    color: var(--texto);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    padding: 0rem 8rem;
+    text-align: left;
+}
+
+.imagens-habilidades {
+    width: 50px;
+}
+
+.texto-hardskills {
+    color: var(--texto);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    text-align: start;
+}
